@@ -13,11 +13,12 @@ header {
   width: 100%;
   box-shadow: 1px 1px 3px rgba(14, 14, 14, 0.06);
 }
-a.logo{
+a.logo {
   display:block;
   width:200px;
   margin: 15px auto 10px auto;
 }
+
 a.login{
   display:block;
   position:absolute;
@@ -25,16 +26,16 @@ a.login{
   width:30px;
   right:10px;
   top:0;
-}
-a.login:before{
-  content: "\e900";
-  font-family: "it-icons";
-  text-indent: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 18px;
-  color: rgba(33, 35, 37, 0.32);
+  &:before{
+    content: "\e900";
+    font-family: "it-icons";
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: rgba(33, 35, 37, 0.32);
+  }
 }
 a.header__nav{
   position:absolute;
@@ -43,18 +44,11 @@ a.header__nav{
   left:15px;
   width:30px;
   height:30px;
+  nav {
+    position: relative;
+  }
 }
-a.header__nav span{
-  width: 20px;
-  height: 2px;
-  display: block;
-  background: rgba(19, 22, 27, 0.21);
-  margin-bottom: 4px;
-  border-radius: 10px;
-}
-nav {
-position: relative;
-}
+
 nav:before, nav:after {
   display: block;
   content: '';
@@ -103,31 +97,31 @@ nav:after {
     z-index: 3;
   }
   .home .it-nav li.active:after {
-    background: #13161b;
+    background: $home;
   }
   .news .it-nav li.active:after {
-    background: #CC0000;
+    background: $news;
   }
   .sport .it-nav li.active:after {
-    background: #4CAF50;
+    background: $sport;
   }
   .business .it-nav li.active:after {
-    background: #03A9F4;
+    background: $business;
   }
   .opinion .it-nav li.active:after {
-    background: #777552;
+    background: $opinion;
   }
   .debate .it-nav li.active:after {
-    background: #777552;
+    background: $opinion;
   }
   .lifestyle .it-nav li.active:after {
-    background: #FF5722;
+    background: $life-and-style;
   }
   .life-and-style .it-nav li.active:after {
-    background: #FF5722;
+    background: $life-and-style;
   }
   .culture .it-nav li.active:after {
-    background: #AB47BC;
+    background: $culture;
   }
   .it-nav li.active a {
     position: relative;

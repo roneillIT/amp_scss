@@ -23,15 +23,15 @@
         padding:10px;
         background:white;
       }
+      .lightbox-close{
+        width:20vw;
+        height:100vh;
+        position:absolute;
+        left:0;
+        top:0;
+
+      }
     }
     .user-lightbox[style="display: none;"] aside, .user-lightbox[style="transition: opacity 0.1s ease-in; display: none;"] {
       transform:translateX(-100%);
-    }
-    .user-lightbox .lightbox-close{
-      width:20vw;
-      height:100vh;
-      position:absolute;
-      left:0;
-      top:0;
-
     }

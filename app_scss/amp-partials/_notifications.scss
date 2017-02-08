@@ -1,4 +1,3 @@
-
 /*------------------------------------*\
     #NOTIFICATIONS
 \*------------------------------------*/
@@ -85,50 +84,53 @@
             bottom: -9px;
             margin-left: -40px;
           }
+          .notification__message{
+            background:#009688;
+            color:$amp_white;
+            font-size:14px;
+            padding: 15px 0 0 0;
+          }
         }
-        .notification--soa .notification__claim{
-          background: #2D3137;
-          border-bottom: 1px solid #2b2e33;
-          color:$amp_white;
+        .notification--soa  {
+          .notification__claim{
+            background: #2D3137;
+            border-bottom: 1px solid #2b2e33;
+            color:$amp_white;
+            &:before{
+              background: #2D3137;
+              margin-top: -30px;
+              box-shadow: 0px -20px 10px rgba(255, 255, 255, 0.7);
+            }
+          }
+          .notification__message{
+            background: #2D3137;
+            border-top: 1px solid #2f333a;
+            border-bottom: 1px solid #2b2e33;
+            p {
+              padding:0 10px;
+            }
+            h5 {
+              font-size: 20px;
+              margin: 0 0 10px 0;
+              color: #FAD165;
+            }
+            a {
+              color:$amp_white;
+            }
+            .btn-subscribe{
+              background:#f9c94c;
+              display:inline-block;
+              color:#414141;
+              margin:8px 0;
+              height: auto;
+              padding: 10px 20px;
+              line-height:18px;
+            }
+          }
         }
 
-        .notification--soa .notification__claim:before{
-          background: #2D3137;
-          margin-top: -30px;
-          box-shadow: 0px -20px 10px rgba(255, 255, 255, 0.7);
-        }
-        .notification__claim
-        .notification__message{
-          background:#009688;
-          color:$amp_white;
-          font-size:14px;
-          padding: 15px 0 0 0;
-        }
-        .notification--soa .notification__message{
-          background: #2D3137;
-          border-top: 1px solid #2f333a;
-          border-bottom: 1px solid #2b2e33;
-        }
-        .notification--soa .notification__message p{
-          padding:0 10px;
-        }
-        .notification--soa h5{
-          font-size: 20px;
-          margin: 0 0 10px 0;
-          color: #FAD165;
-        }
-        .notification__message a{
-          color:$amp_white;
-        }
-        .notification__message .btn-subscribe{
-          background:#f9c94c;
-          display:inline-block;
-          color:#414141;
-          margin:8px 0;
-          height: auto;
-          padding: 10px 20px;
-          line-height:18px;
-        }
+
+        .notification__message
         .notification__login{
           padding: 10px;
           border-top: 1px solid rgba(0,0,0,0.03);

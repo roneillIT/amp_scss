@@ -31,10 +31,11 @@
     color: #888;
     font-size:0.8em;
     padding:0 0 8px 0;
+    &.has-modified time{
+        display:none;
+    }
 }
-.time-metadata.has-modified time{
-    display:none;
-}
+
 .author{
     display: -webkit-box;
     display: -ms-flexbox;

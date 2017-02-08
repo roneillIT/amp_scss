@@ -32,6 +32,10 @@ a {
   text-decoration: none;
   color: #23517a; }
 
+button {
+  border: none;
+  margin-left: 20px; }
+
 h1, h2, h3, h4, h5 {
   font-weight: 400; }
 
@@ -46,36 +50,6 @@ h2 {
   line-height: 1.3em;
   margin: 1.5em 0; }
 
-.article_body {
-  padding: 0 10px; }
-
-.article_body h2 {
-  font-weight: 600;
-  margin: 1.5em 0; }
-
-.crosshead {
-  font-size: 1.2em;
-  font-weight: 600;
-  margin: 15px 0; }
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }
-
-.article_body ul, .article_body ol {
-  padding: 0 0 0 35px; }
-
-li {
-  margin-bottom: 20px;
-  list-style: none; }
-
-.article_body li {
-  list-style: disc; }
-
-.article_body ol li {
-  list-style: inherit; }
-
 blockquote {
   font-weight: 800;
   font-size: 24px;
@@ -84,9 +58,37 @@ blockquote {
   padding: 20px 20px 20px 30px;
   border-left: 8px solid #dedede; }
 
-button {
-  border: none;
-  margin-left: 20px; }
+figcaption, .article_metadata, .article_metadata, .time-metadata, .accordion_header, .pull-out-cta_dark a, .it-btn, .crosshead, .notification, .advertisement .heading {
+  font-family: "DINWeb-Medium", Arial, Helvetica, sans-serif; }
+
+h2, h3, .inline-related a, .related_content a, .it-nav li {
+  font-family: Arial,Helvetica,sans-serif; }
+
+.article_body {
+  padding: 0 10px; }
+  .article_body h2 {
+    font-weight: 600;
+    margin: 1.5em 0; }
+  .article_body ul, .article_body ol {
+    padding: 0 0 0 35px; }
+  .article_body li {
+    list-style: disc; }
+  .article_body ol li {
+    list-style: inherit; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+li {
+  margin-bottom: 20px;
+  list-style: none; }
+
+.crosshead {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 15px 0; }
 
 .masthead {
   border-bottom: 1px solid #F5F5F5;
@@ -102,12 +104,6 @@ button {
   margin: 0 auto;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased; }
-
-figcaption, .article_metadata, .article_metadata, .time-metadata, .accordion_header, .pull-out-cta_dark a, .it-btn, .crosshead, .notification, .advertisement .heading {
-  font-family: "DINWeb-Medium", Arial, Helvetica, sans-serif; }
-
-h2, h3, .inline-related a, .related_content a, .it-nav li {
-  font-family: Arial,Helvetica,sans-serif; }
 
 amp-social-share[type="whatsapp"], .inline-related, .inline-related li, .related_image, .accordion_header {
   position: relative; }
@@ -142,16 +138,15 @@ a.login {
   width: 30px;
   right: 10px;
   top: 0; }
-
-a.login:before {
-  content: "\e900";
-  font-family: "it-icons";
-  text-indent: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 18px;
-  color: rgba(33, 35, 37, 0.32); }
+  a.login:before {
+    content: "\e900";
+    font-family: "it-icons";
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: rgba(33, 35, 37, 0.32); }
 
 a.header__nav {
   position: absolute;
@@ -160,17 +155,8 @@ a.header__nav {
   left: 15px;
   width: 30px;
   height: 30px; }
-
-a.header__nav span {
-  width: 20px;
-  height: 2px;
-  display: block;
-  background: rgba(19, 22, 27, 0.21);
-  margin-bottom: 4px;
-  border-radius: 10px; }
-
-nav {
-  position: relative; }
+  a.header__nav nav {
+    position: relative; }
 
 nav:before, nav:after {
   display: block;
@@ -225,10 +211,10 @@ nav:after {
   background: #CC0000; }
 
 .sport .it-nav li.active:after {
-  background: #4CAF50; }
+  background: #3ea447; }
 
 .business .it-nav li.active:after {
-  background: #03A9F4; }
+  background: #1190af; }
 
 .opinion .it-nav li.active:after {
   background: #777552; }
@@ -237,13 +223,13 @@ nav:after {
   background: #777552; }
 
 .lifestyle .it-nav li.active:after {
-  background: #FF5722; }
+  background: #f60; }
 
 .life-and-style .it-nav li.active:after {
-  background: #FF5722; }
+  background: #f60; }
 
 .culture .it-nav li.active:after {
-  background: #AB47BC; }
+  background: #b74f7d; }
 
 .it-nav li.active a {
   position: relative;
@@ -290,16 +276,15 @@ amp-sidebar {
     height: 100vh;
     padding: 10px;
     background: white; }
+  .user-lightbox .lightbox-close {
+    width: 20vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0; }
 
 .user-lightbox[style="display: none;"] aside, .user-lightbox[style="transition: opacity 0.1s ease-in; display: none;"] {
   transform: translateX(-100%); }
-
-.user-lightbox .lightbox-close {
-  width: 20vw;
-  height: 100vh;
-  position: absolute;
-  left: 0;
-  top: 0; }
 
 /*------------------------------------*\
     #TOP AREA
@@ -331,9 +316,8 @@ amp-sidebar {
   color: #888;
   font-size: 0.8em;
   padding: 0 0 8px 0; }
-
-.time-metadata.has-modified time {
-  display: none; }
+  .time-metadata.has-modified time {
+    display: none; }
 
 .author {
   display: -webkit-box;
@@ -761,49 +745,42 @@ amp-user-notification {
     left: 50%;
     bottom: -9px;
     margin-left: -40px; }
+  .notification__claim .notification__message {
+    background: #009688;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 15px 0 0 0; }
 
 .notification--soa .notification__claim {
   background: #2D3137;
   border-bottom: 1px solid #2b2e33;
   color: #ffffff; }
-
-.notification--soa .notification__claim:before {
-  background: #2D3137;
-  margin-top: -30px;
-  box-shadow: 0px -20px 10px rgba(255, 255, 255, 0.7); }
-
-.notification__claim
-.notification__message {
-  background: #009688;
-  color: #ffffff;
-  font-size: 14px;
-  padding: 15px 0 0 0; }
-
+  .notification--soa .notification__claim:before {
+    background: #2D3137;
+    margin-top: -30px;
+    box-shadow: 0px -20px 10px rgba(255, 255, 255, 0.7); }
 .notification--soa .notification__message {
   background: #2D3137;
   border-top: 1px solid #2f333a;
   border-bottom: 1px solid #2b2e33; }
+  .notification--soa .notification__message p {
+    padding: 0 10px; }
+  .notification--soa .notification__message h5 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #FAD165; }
+  .notification--soa .notification__message a {
+    color: #ffffff; }
+  .notification--soa .notification__message .btn-subscribe {
+    background: #f9c94c;
+    display: inline-block;
+    color: #414141;
+    margin: 8px 0;
+    height: auto;
+    padding: 10px 20px;
+    line-height: 18px; }
 
-.notification--soa .notification__message p {
-  padding: 0 10px; }
-
-.notification--soa h5 {
-  font-size: 20px;
-  margin: 0 0 10px 0;
-  color: #FAD165; }
-
-.notification__message a {
-  color: #ffffff; }
-
-.notification__message .btn-subscribe {
-  background: #f9c94c;
-  display: inline-block;
-  color: #414141;
-  margin: 8px 0;
-  height: auto;
-  padding: 10px 20px;
-  line-height: 18px; }
-
+.notification__message
 .notification__login {
   padding: 10px;
   border-top: 1px solid rgba(0, 0, 0, 0.03); }

@@ -1,6 +1,8 @@
 /*------------------------------------*\
   #GENERAL
 \*------------------------------------*/
+
+
 body{
     background:rgba(51,51,51,0.05);
     border-style:none;
@@ -11,10 +13,20 @@ hgroup, figcaption, .social_box, .article_metadata, .related_content{
     margin:10px;
 }
 
-a{
+// buttons & link
+
+a {
     text-decoration:none;
     color:#23517a;
 }
+
+button {
+    border:none;
+    margin-left: 20px;
+}
+
+// Typography
+
 h1, h2, h3, h4, h5{
     font-weight:400;
 }
@@ -29,37 +41,8 @@ h2{
     line-height: 1.3em;
     margin: 1.5em 0;
 }
-.article_body{
-  padding:0 10px;
-}
-.article_body h2{
-    font-weight:600;
-    margin:1.5em 0;
-}
-.crosshead{
-    font-size: 1.2em;
-    font-weight: 600;
-    margin: 15px 0;
-}
-ul{
-    margin:0;
-    padding:0;
-    list-style-type: none;
-}
-.article_body ul, .article_body ol{
-    padding:0 0 0 35px;
-}
-li {
-    margin-bottom: 20px;
-    list-style: none;
-}
-.article_body li{
-    list-style: disc;
-}
-.article_body ol li{
-    list-style:inherit;
-}
-blockquote{
+
+blockquote {
     font-weight: 800;
     font-size: 24px;
     margin: 0;
@@ -67,15 +50,61 @@ blockquote{
     padding: 20px 20px 20px 30px;
     border-left: 8px solid #dedede;
 }
-button {
-    border:none;
-    margin-left: 20px;
+
+figcaption, .article_metadata, .article_metadata, .time-metadata, .accordion_header, .pull-out-cta_dark a, .it-btn, .crosshead, .notification, .advertisement .heading {
+    font-family: $heading-font;
 }
+h2, h3, .inline-related a, .related_content a, .it-nav li{
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+//  Article Body
+
+.article_body {
+  padding:0 10px;
+  h2{
+      font-weight:600;
+      margin:1.5em 0;
+  }
+  ul, ol {
+      padding:0 0 0 35px;
+  }
+  li{
+      list-style: disc;
+  }
+  ol li{
+      list-style:inherit;
+  }
+}
+
+// List style
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+// Crosshead
+
+.crosshead{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+//  Masthead
+
 .masthead{
     border-bottom: 1px solid #F5F5F5;
     padding: 10px 0 5px 0;
     text-align: center;
 }
+
 .container{
     background:$amp_white;
     color:#414141;
@@ -86,12 +115,7 @@ button {
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
 }
-figcaption, .article_metadata, .article_metadata, .time-metadata, .accordion_header, .pull-out-cta_dark a, .it-btn, .crosshead, .notification, .advertisement .heading {
-    font-family: $heading-font;
-}
-h2, h3, .inline-related a, .related_content a, .it-nav li{
-    font-family: Arial,Helvetica,sans-serif;
-}
+
 amp-social-share[type="whatsapp"], .inline-related, .inline-related li, .related_image, .accordion_header{
     position:relative;
 }
