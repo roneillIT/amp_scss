@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #PULL-OUTS & CTAs
+\*------------------------------------*/
+
+$pull-bg: #2D3137;
+$put-out_color: #f9c94c;
+
+.pull-out-cta_dark{
+    background: $pull-bg;
+    padding: 15px;
+    margin: 0 -10px;
+}
+.pull-out-cta_dark a{
+    align-items: center;
+    color:$amp_white;
+    display: flex; // TODO:  mixin
+    justify-content: space-between;
+    width: 100%;
+}
+.it-btn{
+    background: none;
+    border: 2px solid $put-out_color;
+    border-radius: 5px;
+    color: $put-out_color;
+    font-size: 16px;
+    height: 36px;
+    line-height: 17px;
+    padding: 10px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #CAROUSEL
+\*------------------------------------*/
+amp-carousel figcaption{
+  display:none;
+}
+.amp-image-lightbox-caption {
+  font-family: $heading-font;
+  font-size: 0.9em;
+}
+.amp-carousel-button{
+  background-color:rgba(0,0,0,0.3);
+}
+.amp-carousel-button-next {
+  background-image:url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18px" height="18px" viewBox="-290 292 18 18" ><path d="M-277.4,300.4l-6-6c-0.3-0.3-0.8-0.3-1.1,0c-0.3,0.3-0.3,0.8,0,1.1l5.5,5.5l-5.5,5.5c-0.3,0.3-0.3,0.8,0,1.1 c0.3,0.3,0.8,0.3,1.1,0l6-6c0.2-0.2,0.2-0.4,0.2-0.6C-277.2,300.8-277.3,300.6-277.4,300.4z" fill="#fff"/></svg>');
+  right:4%;
+}
+.amp-carousel-button-prev{
+  background-image:url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18px" height="18px" viewBox="-290 292 18 18" ><path d="M-284.6,300.4l6-6c0.3-0.3,0.8-0.3,1.1,0c0.3,0.3,0.3,0.8,0,1.1l-5.5,5.5l5.5,5.5c0.3,0.3,0.3,0.8,0,1.1c-0.3,0.3-0.8,0.3-1.1,0l-6-6c-0.2-0.2-0.2-0.4-0.2-0.6C-284.8,300.8-284.7,300.6-284.6,300.4z" fill="#fff"/></svg> ');
+  left:4%;
+}

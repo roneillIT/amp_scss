@@ -1,0 +1,52 @@
+/*=======================
+    Sticky BTM
+=======================*/
+
+    .amp-sticky-btm_wrapper {
+        background-color: #333;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+        display: -ms-flexbox;  /* TWEENER - IE 10 */
+        display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+        display: flex; // TODO: mixin needed
+        -webkit-justify-content: space-around; /* Safari 6.1+ */
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 12px 0px 0px 0px;
+        font-family: $heading-font;
+        color: $amp_white;
+        z-index: 9;
+        transition: all 0.3s;
+    }
+
+    .amp-sticky-btm-bg {
+        position: absolute;
+        height: 111px;
+        background-color: #252424;
+        width: 200%;
+        top: 71px;
+        z-index: 8;
+        border-top: 1px solid #212020;
+        left: -200px;
+    }
+
+    .active-arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 10px 0 10px;
+        border-color: #333333 transparent transparent transparent;
+        position: absolute;
+        right: 48px;
+        top: 70px;
+        z-index: 10;
+    }
+
+    .amp-sticky-btm_home-btn, .amp-sticky-btm_sections-btn, .amp-sticky-btm_read-next-btn {
+        text-align: center;
+        font-size: 13px;
+         -webkit-flex-basis: 33%; /* Safari 6.1+ */
+        flex-basis: 33%;
+    }

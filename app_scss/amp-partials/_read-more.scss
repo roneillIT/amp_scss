@@ -1,0 +1,63 @@
+  /*------------------------------------*\
+        #READ MORE
+  \*------------------------------------*/
+
+  .related_content {
+
+    li{
+        margin-bottom:15px;
+        border-bottom:0.15em solid #f9f9f9;
+        list-style:none;
+    }
+
+    a{
+        clear:both;
+        font-size:0.9em;
+        line-height:1.3em;
+        min-height:65px;
+    }
+    h3:before{
+        background-color: #111;
+        content: " ";
+        display: block;
+        height: 2px;
+        margin-bottom: 6px;
+        width: 140px;
+    }
+
+  }
+
+    .related_image{
+        float:left;
+        margin-right:10px;
+        &.icon:before{
+            background:rgba(0,0,0,0.78);
+            border-top-right-radius: 50%;
+            bottom:0;
+            content:"";
+            color:$amp_white;
+            font-family: 'it-icons';
+            font-size:1em;
+            line-height: 16px;
+            padding: 7px 10px 5px 8px;
+            position: absolute;
+            text-align: center;
+            z-index:2;
+        }
+    }
+
+    .related_title{
+        color:#34495E;
+    }
+    .related_time{
+        display: inline-block;
+        font-size: 0.8em;
+        white-space: nowrap;
+    }
+    /* P.O.C for content-type icons overlay */
+    .icon.video:before{
+        content:"\e80d"
+    }
+    .icon.analysis:before{
+        content:"\e801";
+    }

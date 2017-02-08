@@ -1,0 +1,148 @@
+/*------------------------------------*\
+    #HEADER & NAVIGATION
+\*------------------------------------*/
+header {
+  background: white;
+  line-height:1em;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate(0px, 0);
+  transform: translate(0px, 0px);
+  width: 100%;
+  box-shadow: 1px 1px 3px rgba(14, 14, 14, 0.06);
+}
+a.logo{
+  display:block;
+  width:200px;
+  margin: 15px auto 10px auto;
+}
+a.login{
+  display:block;
+  position:absolute;
+  text-indent:-999px;
+  width:30px;
+  right:10px;
+  top:0;
+}
+a.login:before{
+  content: "\e900";
+  font-family: "it-icons";
+  text-indent: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  color: rgba(33, 35, 37, 0.32);
+}
+a.header__nav{
+  position:absolute;
+  top:0;
+  display:block;
+  left:15px;
+  width:30px;
+  height:30px;
+}
+a.header__nav span{
+  width: 20px;
+  height: 2px;
+  display: block;
+  background: rgba(19, 22, 27, 0.21);
+  margin-bottom: 4px;
+  border-radius: 10px;
+}
+nav {
+position: relative;
+}
+nav:before, nav:after {
+  display: block;
+  content: '';
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, #fff 85%);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fff 85%);
+  position: absolute;
+  height: 33px;
+  width: 30px;
+  top: 0;
+  left: 0;
+}
+nav:after {
+  left: inherit;
+  right: 0;
+}
+
+  .it-nav {
+    white-space: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+    z-index: 3;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+  }
+  .it-nav li {
+    display: inline-block;
+    position: relative;
+    padding: 5px 0 12px 0;
+    font-size: 14px;
+    margin:0;
+  }
+  .it-nav li.active:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+  }
+  .home .it-nav li.active:after {
+    background: #13161b;
+  }
+  .news .it-nav li.active:after {
+    background: #CC0000;
+  }
+  .sport .it-nav li.active:after {
+    background: #4CAF50;
+  }
+  .business .it-nav li.active:after {
+    background: #03A9F4;
+  }
+  .opinion .it-nav li.active:after {
+    background: #777552;
+  }
+  .debate .it-nav li.active:after {
+    background: #777552;
+  }
+  .lifestyle .it-nav li.active:after {
+    background: #FF5722;
+  }
+  .life-and-style .it-nav li.active:after {
+    background: #FF5722;
+  }
+  .culture .it-nav li.active:after {
+    background: #AB47BC;
+  }
+  .it-nav li.active a {
+    position: relative;
+    font-weight: 600;
+  }
+  .it-nav a {
+    font-family:"Lato", sans-serif;
+    text-decoration: none;
+    color: #13161b;
+  }
+  .it-nav__item {
+    padding: 0 15px;
+    display: block;
+  }
+  .it-nav__item.is-active {
+    background-color: #fbfbfb;
+    color: #333;
+  }

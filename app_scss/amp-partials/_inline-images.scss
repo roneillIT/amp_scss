@@ -1,0 +1,31 @@
+
+/*------------------------------------*\
+  #INLINE IMAGES
+\*------------------------------------*/
+
+  /* Inline Images */
+  .inline__content--image figcaption {
+    font-family: $heading-font;
+    line-height: 1.4em;
+    font-size: 12px;
+    color: #888;
+    margin:0;
+    padding: 8px 0 0 0;
+  }
+  .inline__content--image.left:not(.ls) {
+    float: left;
+    margin-right: 12px;
+    max-width: 45%;
+  }
+
+  .inline__content--image.left.ls, .inline__content--image.right.ls  {
+    float: none;
+    margin-right: 0;
+    width:100%;
+  }
+
+  .inline__content--image.right:not(.ls) {
+    float: right;
+    margin-left: 12px;
+    max-width: 45%;
+  }

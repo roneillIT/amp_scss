@@ -1,0 +1,37 @@
+/*------------------------------------*\
+    #USER MENU
+\*------------------------------------*/
+    .user-lightbox{
+      background: rgba(0,0,0,0.2);
+
+      aside{
+        height:100vh;
+        position:relative;
+        -webkit-transition: -webkit-transform 233ms cubic-bezier(0,0,.21,1);
+        transition: -webkit-transform 233ms cubic-bezier(0,0,.21,1);
+        transition: transform 233ms cubic-bezier(0,0,.21,1);
+        transition: transform 233ms cubic-bezier(0,0,.21,1),-webkit-transform 233ms cubic-bezier(0,0,.21,1);
+        transform:translateX(0);
+      }
+
+      ul{
+        position:absolute;
+        top:0;
+        right:0;
+        width:80vw;
+        height:100vh;
+        padding:10px;
+        background:white;
+      }
+    }
+    .user-lightbox[style="display: none;"] aside, .user-lightbox[style="transition: opacity 0.1s ease-in; display: none;"] {
+      transform:translateX(-100%);
+    }
+    .user-lightbox .lightbox-close{
+      width:20vw;
+      height:100vh;
+      position:absolute;
+      left:0;
+      top:0;
+
+    }

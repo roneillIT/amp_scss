@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  #IMAGES
+\*------------------------------------*/
+
+figure{
+    margin:0;
+}
+figcaption, .videocaption{
+    border-bottom: 0;
+    color: #616161;
+    font-size: 12px;
+    display: block;
+    line-height: 1.4em;
+}
+figcaption .fig-author, .byline, .related_content a{
+    color:#888888;
+}

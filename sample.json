@@ -1,0 +1,41 @@
+{
+    "items": [{
+        "title": "Brexit: What is Article 50 and why does it matter?",
+        "url": "http://www.irishtimes.com/news/politics/brexit-what-is-article-50-and-why-does-it-matter-1.2701506",
+        "inline": true
+    }, {
+        "title": "Euro zone economic growth slowed in quarter before Brexit",
+        "url": "http://www.irishtimes.com/business/economy/euro-zone-economic-growth-slowed-in-quarter-before-brexit-1.2738907",
+        "inline": true
+
+    }, {
+        "title": "Irish company dividends likely to hold up post-Brexit as profit growth declines ",
+        "url": "http://www.irishtimes.com/business/markets/irish-company-dividends-likely-to-hold-up-post-brexit-as-profit-growth-declines-1.2732839",
+        "inline": false
+    }, {
+        "title": "‘UK was groomed’: Irish writers throw book at Brexit",
+        "url": "http://www.irishtimes.com/culture/books/uk-was-groomed-irish-writers-throw-book-at-brexit-1.2701474",
+        "image": "http://www.irishtimes.com/polopoly_fs/1.2701473.1467024529!/image/image.jpg_gen/derivatives/box_140/image.jpg",
+        "top5": true
+    }, {
+        "title": "Brexit: What is Article 50 and why does it matter?",
+        "url": "http://www.irishtimes.com/news/politics/brexit-what-is-article-50-and-why-does-it-matter-1.2701506",
+        "image": "http://www.irishtimes.com/polopoly_fs/1.2701504.1467026423!/image/image.jpg_gen/derivatives/box_140/image.jpg",
+        "top5": true
+    }, {
+        "title": "Jeremy Corbyn urges government to tear up EU state aid rules",
+        "url": "http://www.irishtimes.com/news/world/uk/jeremy-corbyn-urges-government-to-tear-up-eu-state-aid-rules-1.2792878",
+        "image": "http://www.irishtimes.com/polopoly_fs/1.2792867.1473978621!/image/image.jpg_gen/derivatives/box_140/image.jpg",
+        "top5": true
+    }, {
+        "title": "I moved from Britain to Ireland, where a woman is a second-class citizen",
+        "url": "http://www.irishtimes.com/culture/i-moved-from-britain-to-ireland-where-a-woman-is-a-second-class-citizen-1.2791087",
+        "image": "http://www.irishtimes.com/polopoly_fs/1.2791086.1473868697!/image/image.jpg_gen/derivatives/box_140/image.jpg",
+        "top5": true
+    }, {
+        "title": "Suzanne Lynch: No sign of any grand plan for post-Brexit Europe",
+        "url": "http://www.irishtimes.com/opinion/suzanne-lynch-no-sign-of-any-grand-plan-for-post-brexit-europe-1.2792737",
+        "image": "http://www.irishtimes.com/polopoly_fs/1.2792735.1473973735!/image/image.jpg_gen/derivatives/box_140/image.jpg",
+        "top5": true
+    }]
+}

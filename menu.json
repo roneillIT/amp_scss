@@ -1,0 +1,171 @@
+{
+    "items": [{
+        "title": "Top Stories",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Top Stories",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-top-stories"
+    }, {
+        "title": "Latest News",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Latest News",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-latest-news"
+    }, {
+        "title": "Most Popular",
+        "digitalpass": "N",
+        "color": "#673695",
+        "shorttitle": "Most Popular",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-most-popular"
+    }, {
+        "title": "Irish News",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Irish News",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-irish-news"
+    }, {
+        "title": "World News",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "World News",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-world"
+    }, {
+        "title": "Business",
+        "digitalpass": "N",
+        "color": "#1190AF",
+        "shorttitle": "Business",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-business"
+    }, {
+        "title": "Sport",
+        "digitalpass": "N",
+        "color": "#3ea447",
+        "shorttitle": "Sport",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-sport"
+    }, {
+        "title": "Brexit",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Brexit",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-brexit"
+    }, {
+        "title": "Opinion",
+        "digitalpass": "N",
+        "color": "#777552",
+        "shorttitle": "Opinion",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-opinion"
+    }, {
+        "title": "Letters",
+        "digitalpass": "N",
+        "color": "#777552",
+        "shorttitle": "Letters",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-letters"
+    }, {
+        "title": "Politics",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Politics",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-politics"
+    }, {
+        "title": "Life & Style",
+        "digitalpass": "N",
+        "color": "#FF6600",
+        "shorttitle": "Life & Style",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-life-style"
+    }, {
+        "title": "Culture",
+        "digitalpass": "N",
+        "color": "#B74F7D",
+        "shorttitle": "Culture",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-culture"
+    }, {
+        "title": "Abroad",
+        "digitalpass": "N",
+        "color": "#FF6600",
+        "shorttitle": "Abroad",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-abroad"
+    }, {
+        "title": "Health",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Health",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-health"
+    }, {
+        "title": "Property",
+        "digitalpass": "N",
+        "color": "#FF6600",
+        "shorttitle": "Property",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-property"
+    }, {
+        "title": "Food & Drink",
+        "digitalpass": "N",
+        "color": "#FF6600",
+        "shorttitle": "Food & Drink",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-food-drink"
+    }, {
+        "title": "Books",
+        "digitalpass": "N",
+        "color": "#B74F7D",
+        "shorttitle": "Books",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-books"
+    }, {
+        "title": "Student Hub",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Student Hub",
+        "type": "articles",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-student-hub"
+    }, {
+        "title": "Videos",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Videos",
+        "type": "videos",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-videos"
+    }, {
+        "title": "Galleries",
+        "digitalpass": "N",
+        "color": "#CC0000",
+        "shorttitle": "Galleries",
+        "type": "galleries",
+        "assettype": "link",
+        "url": "http://app.irishtimes.com/v7-iphone-menu/iphone-galleries"
+    }]
+}

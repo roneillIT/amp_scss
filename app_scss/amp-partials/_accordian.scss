@@ -1,0 +1,46 @@
+
+/*------------------------------------*\
+    #ACCORDION COMPONENT
+\*------------------------------------*/
+.accordion_header {
+    background: $amp_light-grey;
+    border: 1px solid rgba(0,0,0,0.02);
+    box-shadow: 0 0 2px rgba(0,0,0,0.13);
+    color:#34495e;
+    margin-bottom:15px;
+    padding:15px 0;
+    text-align:center;
+}
+.symbol-plus {
+    background: #34495e;
+    display: block;
+    height: 2px;
+    margin: 0 auto;
+    position: relative;
+    text-indent:-999px;
+    width: 12px;
+    &:before {
+        background: #34495e;
+        content: "";
+        width: 12px;
+        height: 2px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transform: scale(1) rotate(-90deg);
+        -moz-transform: scale(1) rotate(-90deg);
+        -ms-transform: scale(1) rotate(-90deg);
+        -o-transform: scale(1) rotate(-90deg);
+        transform: scale(1) rotate(-90deg);
+        -webkit-transition: all .12s ease;
+        -moz-transition: all .12s ease;
+        transition: all .12s ease;
+    }
+}
+
+/* "expanded" attribute on the section tag is AMP specific, added when the collapsable panel is expanded */
+section[expanded=""] .accordion_header{
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+}

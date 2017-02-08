@@ -1,0 +1,103 @@
+        /*------------------------------------*\
+            #INLINE PULLQUOTES
+        \*------------------------------------*/
+
+        .inline__content {
+          margin: 6px auto 18px;
+
+          &--pullquote {
+            font-size: 24px;
+            line-height: 1.3em;
+            color: #444;
+            font-family: $heading-font;
+            border-left: 4px solid;
+            padding: 0px 0 10px 10px;
+            &:before {
+              font-family: $sans-serif;
+              font-size: 4em;
+              height: 0.15em;
+              display: block;
+              padding-top: 30px;
+              content: '\201C';
+            }
+          }
+        }
+
+        body.frontpage .inline__content--pullquote {
+          border-color: $frontpage;
+          &:before {
+            color: $frontpage;
+          }
+        }
+        body.news .inline__content--pullquote {
+          border-color: $news;
+          &:before {
+            color: $news;
+          }
+        }
+        body.sport .inline__content--pullquote {
+          border-color: $sport;
+          &:before {
+            color: $sport;
+          }
+        }
+        body.business .inline__content--pullquote {
+          border-color: $business;
+          &:before {
+            color: $business;
+          }
+        }
+        body.opinion .inline__content--pullquote {
+          border-color: $opinion;
+          &:before {
+            color: $opinion;
+          }
+        }
+        body.debate .inline__content--pullquote {
+          border-color: $opinion;
+          &:before {
+            color: $opinion;
+          }
+        }
+        body.lifestyle .inline__content--pullquote {
+          border-color: $life-and-style;
+          &:before {
+            color: $life-and-style;
+          }
+        }
+        body.life-and-style .inline__content--pullquote {
+          border-color: $life-and-style;
+          &:before {
+            color: $life-and-style;
+          }
+        }
+        body.culture .inline__content--pullquote {
+          border-color: $culture;
+          &:before {
+            color: $culture;
+          }
+        }
+        body.more .inline__content--pullquote {
+          border-color: $more;
+          &:before {
+            color: $more;
+          }
+        }
+        body.offers .inline__content--pullquote {
+          border-color: $more;
+          &:before {
+            color: $more;
+          }
+        }
+        body.homepage .inline__content--pullquote {
+          border-color: $news;
+          &:before {
+            color: $news;
+          }
+        }
+        body.sponsored .inline__content--pullquote {
+          border-color: $sponsored;
+          &:before {
+            color: $sponsored;
+          }
+        }
