@@ -23,81 +23,102 @@
           }
         }
 
-        body.frontpage .inline__content--pullquote {
-          border-color: $frontpage;
-          &:before {
-            color: $frontpage;
-          }
-        }
-        body.news .inline__content--pullquote {
-          border-color: $news;
-          &:before {
-            color: $news;
-          }
-        }
-        body.sport .inline__content--pullquote {
-          border-color: $sport;
-          &:before {
-            color: $sport;
-          }
-        }
-        body.business .inline__content--pullquote {
-          border-color: $business;
-          &:before {
-            color: $business;
-          }
-        }
-        body.opinion .inline__content--pullquote {
-          border-color: $opinion;
-          &:before {
-            color: $opinion;
-          }
-        }
-        body.debate .inline__content--pullquote {
-          border-color: $opinion;
-          &:before {
-            color: $opinion;
-          }
-        }
-        body.lifestyle .inline__content--pullquote {
-          border-color: $life-and-style;
-          &:before {
-            color: $life-and-style;
-          }
-        }
-        body.life-and-style .inline__content--pullquote {
-          border-color: $life-and-style;
-          &:before {
-            color: $life-and-style;
-          }
-        }
-        body.culture .inline__content--pullquote {
-          border-color: $culture;
-          &:before {
-            color: $culture;
-          }
-        }
-        body.more .inline__content--pullquote {
-          border-color: $more;
-          &:before {
-            color: $more;
-          }
-        }
-        body.offers .inline__content--pullquote {
-          border-color: $more;
-          &:before {
-            color: $more;
-          }
-        }
-        body.homepage .inline__content--pullquote {
-          border-color: $news;
-          &:before {
-            color: $news;
-          }
-        }
-        body.sponsored .inline__content--pullquote {
-          border-color: $sponsored;
-          &:before {
-            color: $sponsored;
-          }
-        }
+$section_names: home homepage frontpage news sport business opinion debate lifestyle life-and-style culture more offers sponsored;
+$section_colours: $home $news $frontpage $news $sport $business $opinion $opinion $life-and-style $life-and-style $culture $more $more $sponsored;
+
+
+@each $name in $section_names {
+ $i: index($section_names, $name);
+ body.#{$name} .inline__content--pullquote {
+   @extend %#{nth($section_names, $i)};
+ }
+}
+
+@for $i from 1 through length($section_names) {
+ %#{nth($section_names, $i)} {
+   border-color: nth($section_colours, $i);
+   &:before{
+     color: nth($section_colours, $i);
+   }
+ }
+}
+
+
+        // body.frontpage .inline__content--pullquote {
+        //   border-color: $frontpage;
+        //   &:before {
+        //     color: $frontpage;
+        //   }
+        // }
+        // body.news .inline__content--pullquote {
+        //   border-color: $news;
+        //   &:before {
+        //     color: $news;
+        //   }
+        // }
+        // body.sport .inline__content--pullquote {
+        //   border-color: $sport;
+        //   &:before {
+        //     color: $sport;
+        //   }
+        // }
+        // body.business .inline__content--pullquote {
+        //   border-color: $business;
+        //   &:before {
+        //     color: $business;
+        //   }
+        // }
+        // body.opinion .inline__content--pullquote {
+        //   border-color: $opinion;
+        //   &:before {
+        //     color: $opinion;
+        //   }
+        // }
+        // body.debate .inline__content--pullquote {
+        //   border-color: $opinion;
+        //   &:before {
+        //     color: $opinion;
+        //   }
+        // }
+        // body.lifestyle .inline__content--pullquote {
+        //   border-color: $life-and-style;
+        //   &:before {
+        //     color: $life-and-style;
+        //   }
+        // }
+        // body.life-and-style .inline__content--pullquote {
+        //   border-color: $life-and-style;
+        //   &:before {
+        //     color: $life-and-style;
+        //   }
+        // }
+        // body.culture .inline__content--pullquote {
+        //   border-color: $culture;
+        //   &:before {
+        //     color: $culture;
+        //   }
+        // }
+        // body.more .inline__content--pullquote {
+        //   border-color: $more;
+        //   &:before {
+        //     color: $more;
+        //   }
+        // }
+        // body.offers .inline__content--pullquote {
+        //   border-color: $more;
+        //   &:before {
+        //     color: $more;
+        //   }
+        // }
+        // body.homepage .inline__content--pullquote {
+        //   border-color: $news;
+        //   &:before {
+        //     color: $news;
+        //   }
+        // }
+        // body.sponsored .inline__content--pullquote {
+        //   border-color: $sponsored;
+        //   &:before {
+        //     color: $sponsored;
+        //   }
+        // }

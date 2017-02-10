@@ -24,35 +24,46 @@
       $more: #006666;
       $sponsored: #011235;
 
-        @font-face {
-            font-family: 'DINWeb-Medium';
-            src: url('/assets/fonts/DINWebPro-Medium.eot');
-            src: url('/assets/fonts/DINWebPro-Medium.eot?#iefix') format('embedded-opentype'),
-            url('/assets/fonts/DINWebPro-Medium.woff') format('woff');
-            font-weight: bold;
-            font-style: normal;
-        }
-        @font-face {
-            font-family: 'it-icons';
-            src:url('/assets/fonts/it-icons.eot?fzeavz');
-            src:url('/assets/fonts/it-icons.eot?fzeavz#iefix') format('embedded-opentype'),
-            url('/assets/fonts/it-icons.ttf?fzeavz') format('truetype'),
-            url('/assets/fonts/it-icons.woff?fzeavz') format('woff'),
-            url('/assets/fonts/it-icons.svg?fzeavz#it-icons') format('svg');
-            font-weight: normal;
-            font-style: normal;
-        }
-        @font-face{
-            font-family:'FontAwesome';
-            font-weight:normal;
-            font-style:normal;
-            src:url('/assets/fonts/fontawesome-webfont.eot?v=4.3.0');
-            src:url('/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),
-            url('/assets/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
-            url('/assets/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),
-            url('/assets/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
-            url('/assets/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
-        }
+      // bourbon include
+      @import "bourbon/bourbon";
+
+      // import fonts
+
+      // TODO: CHECK why is there a letters after the font name?
+
+      @include font-face("DINWeb-Medium", "/assets/fonts/DINWebPro-Medium", bold, normal);
+      @include font-face("it-icons", "/assets/fonts/it-icons", normal, normal);
+      @include font-face("FontAwesome", "/assets/fonts/fontawesome-webfont" normal, normal);
+
+        // @font-face {
+        //     font-family: 'DINWeb-Medium';
+        //     src: url('/assets/fonts/DINWebPro-Medium.eot');
+        //     src: url('/assets/fonts/DINWebPro-Medium.eot?#iefix') format('embedded-opentype'),
+        //     url('/assets/fonts/DINWebPro-Medium.woff') format('woff');
+        //     font-weight: bold;
+        //     font-style: normal;
+        // }
+        // @font-face {
+        //     font-family: 'it-icons';
+        //     src:url('/assets/fonts/it-icons.eot?fzeavz');
+        //     src:url('/assets/fonts/it-icons.eot?fzeavz#iefix') format('embedded-opentype'),
+        //     url('/assets/fonts/it-icons.ttf?fzeavz') format('truetype'),
+        //     url('/assets/fonts/it-icons.woff?fzeavz') format('woff'),
+        //     url('/assets/fonts/it-icons.svg?fzeavz#it-icons') format('svg');
+        //     font-weight: normal;
+        //     font-style: normal;
+        // }
+        // @font-face{
+        //     font-family:'FontAwesome';
+        //     font-weight:normal;
+        //     font-style:normal;
+        //     src:url('/assets/fonts/fontawesome-webfont.eot?v=4.3.0');
+        //     src:url('/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'),
+        //     url('/assets/fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
+        //     url('/assets/fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'),
+        //     url('/assets/fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+        //     url('/assets/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+        // }
 
 
         // import the partials

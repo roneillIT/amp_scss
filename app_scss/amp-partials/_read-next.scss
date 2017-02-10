@@ -131,6 +131,7 @@
             font-size: 13px;
             -webkit-flex-basis: 80px; /* Safari 6.1+ */
             flex-basis: 25%;
+            //  TODO: Bourbon mixin
         }
         p {
             background-color: $amp_light-grey;
